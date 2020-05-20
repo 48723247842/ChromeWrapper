@@ -1,0 +1,16 @@
+{
+  "name": "chromewrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "events": "^3.1.0",
+    "shelljs": "^0.8.4",
+    "ws": "^7.2.5"
+  }
+}
