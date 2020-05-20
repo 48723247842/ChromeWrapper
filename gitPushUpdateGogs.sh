@@ -25,5 +25,5 @@ fi
 #echo "$NextCommitNumber"
 git add .
 git commit -m "$NextCommitNumber"
-git remote add origin $GITHUB_SSH_REPOSITORY_URL
+git remote add gogs $GITHUB_SSH_REPOSITORY_URL
 git push origin gogs
