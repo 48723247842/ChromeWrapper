@@ -1,6 +1,5 @@
 ( async ()=> {
 	const ChromeWrapper = require( "./main.js" );
-	//const chrome_wrapper = new require( "./main.js" );
 	const chrome_wrapper = new ChromeWrapper();
 	function disney_plus_page_ready() {
 		return new Promise( async ( resolve , reject ) => {
